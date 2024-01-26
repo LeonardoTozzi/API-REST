@@ -9,3 +9,4 @@ $routes->get('/', 'Home::index');
 
 // produtos REST
 $routes->get('produtos', 'Produtos::getAll');
+$routes->post('produtos/create', 'Produtos::create');
